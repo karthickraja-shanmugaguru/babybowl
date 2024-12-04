@@ -1,43 +1,23 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, url_for
 
 app = Flask(__name__)
 
-# Mock Data
-
-# Banners
+# Mock Data (no URL generation here)
 banner_data = [
-    {
-        "id": "banner1",
-        "image_url": "https://example.com/images/banner1.jpg",
-        "link": "test",
-        "start_date": "01-01-2024",
-        "end_date": "01-01-2025",
-        "banner_type": "Home",
-        "priority": 1
-    },
-    {
-        "id": "banner2",
-        "image_url": "https://example.com/images/banner2.jpg",
-        "link": "https://example.com/new-arrivals",
-        "start_date": "01-02-2024",
-        "end_date": "01-02-2025",
-        "banner_type": "Home",
-        "priority": 2
-    }
+    {"id": "banner1", "image_url": "Image/Banner1.png", "banner_type": "Home"},
+    {"id": "banner2", "image_url": "Image/Banner2.png", "banner_type": "Home"},
+    {"id": "banner3", "image_url": "Image/Banner3.png", "banner_type": "Home"}
 ]
 
-# Categories
 category_data = [
     {
         "id": "1",
         "name": "Foods",
         "image_url": "https://example.com/images/electronics.jpg",
-        "is_active": True,
-        "url": "test"
+        "is_active": True
     }
 ]
 
-# Products
 product_data = [
     {
         "id": "product_sathu_maavu",
@@ -62,6 +42,9 @@ product_data = [
 
 @app.route('/dashboard/banner', methods=['GET'])
 def get_banners():
+    # Dynamically generate the image URLs for banners
+    for banner in banner_data:
+        banner['image_url'] = url_for('static', filename=banner['image_url'])
     return jsonify({"data": banner_data})
 
 @app.route('/dashboard/categories', methods=['GET'])
@@ -72,9 +55,9 @@ def get_categories():
 def get_products():
     return jsonify({"data": product_data})
 
-@app.route('/api',methods = ['GET'])
+@app.route('/api', methods=['GET'])
 def get_api():
-    return ("Welcome to BabyBowl API")
+    return "Welcome to BabyBowl API"
 
 if __name__ == '__main__':
     app.run(debug=True)
