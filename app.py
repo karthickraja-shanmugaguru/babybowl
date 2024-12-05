@@ -42,7 +42,6 @@ product_data = [
 
 @app.route('/dashboard/banner', methods=['GET'])
 def get_banners():
-    # Dynamically generate the image URLs for banners
     for banner in banner_data:
         banner['image_url'] = url_for('static', filename=banner['image_url'])
     return jsonify({"data": banner_data})
