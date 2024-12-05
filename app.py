@@ -59,5 +59,9 @@ def get_products():
 def get_api():
     return "Welcome to BabyBowl API"
 
+@app.route('/', methods=['GET'])
+def home():
+    return "Welcome to Babybowl Backend"
+
 if __name__ == '__main__':
     app.run(debug=True)
