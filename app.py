@@ -2,11 +2,11 @@ from flask import Flask, jsonify, url_for
 
 app = Flask(__name__)
 
-# Mock Data (no URL generation here)
+# Mock Data
 banner_data = [
-    {"id": "banner1", "image_url": "Image/Banner1.png", "banner_type": "Home"},
-    {"id": "banner2", "image_url": "Image/Banner2.png", "banner_type": "Home"},
-    {"id": "banner3", "image_url": "Image/Banner3.png", "banner_type": "Home"}
+    {"id": "banner1", "image_url": "Banner1.png", "banner_type": "Home"},
+    {"id": "banner2", "image_url": "Banner2.png", "banner_type": "Home"},
+    {"id": "banner3", "image_url": "Banner3.png", "banner_type": "Home"}
 ]
 
 category_data = [
@@ -42,8 +42,9 @@ product_data = [
 
 @app.route('/dashboard/banner', methods=['GET'])
 def get_banners():
+    # Update image URLs to point to the static folder
     for banner in banner_data:
-        banner['image_url'] = url_for('static', filename=banner['image_url'])
+        banner['image_url'] = url_for('static', filename=f"Image/{banner['image_url']}")
     return jsonify({"data": banner_data})
 
 @app.route('/dashboard/categories', methods=['GET'])
