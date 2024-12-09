@@ -4,9 +4,9 @@ app = Flask(__name__)
 
 # Mock Data
 banner_data = [
-    {"id": "banner1", "image_url": "backend.babybowl.life/static/Image/Banner1.png", "banner_type": "Home"},
-    {"id": "banner2", "image_url": "backend.babybowl.life/static/Image/Banner2.png", "banner_type": "Home"},
-    {"id": "banner3", "image_url": "backend.babybowl.life/static/Image/Banner3.png", "banner_type": "Home"}
+    {"id": "banner1", "image_url": "https://backend.babybowl.life/static/Image/Banner1.png", "banner_type": "Home"},
+    {"id": "banner2", "image_url": "https://backend.babybowl.life/static/Image/Banner2.png", "banner_type": "Home"},
+    {"id": "banner3", "image_url": "https://backend.babybowl.life/static/Image/Banner3.png", "banner_type": "Home"}
 ]
 
 category_data = [
