@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, url_for
+from flask_cors import CORS, cross_origin 
 
 app = Flask(__name__)
 
@@ -41,22 +42,27 @@ product_data = [
 # Routes
 
 @app.route('/dashboard/banner', methods=['GET'])
+@cross_origin('*')
 def get_banners():
     return jsonify({"data": banner_data})
 
 @app.route('/dashboard/categories', methods=['GET'])
+@cross_origin('*')
 def get_categories():
     return jsonify({"data": category_data})
 
 @app.route('/dashboard/products', methods=['GET'])
+@cross_origin('*')
 def get_products():
     return jsonify({"data": product_data})
 
 @app.route('/api', methods=['GET'])
+@cross_origin('*')
 def get_api():
     return "Welcome to BabyBowl API"
 
 @app.route('/', methods=['GET'])
+@cross_origin('*')
 def home():
     return "Welcome to Babybowl Backend"
 
