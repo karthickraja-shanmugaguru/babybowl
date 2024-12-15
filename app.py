@@ -4,8 +4,7 @@ from flask_cors import CORS, cross_origin
 app = Flask(__name__)
 
 # Mock Data
-banner_data = [
-    {"id": "banner1", "image_url": "https://backend.babybowl.life/static/Image/Banner1.png", "banner_type": "Home"},
+banner_data = [,
     {"id": "banner2", "image_url": "https://backend.babybowl.life/static/Image/Banner2.png", "banner_type": "Home"},
     {"id": "banner3", "image_url": "https://backend.babybowl.life/static/Image/Banner3.png", "banner_type": "Home"}
 ]
