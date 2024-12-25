@@ -12,7 +12,7 @@ category_data = [
     {
         "id": "1",
         "name": "Foods",
-        "image_url": "https://example.com/images/electronics.jpg",
+        "image_url": "https://backend.babybowl.life/static/Image/food4.jpg",
         "is_active": True
     }
 ]
@@ -21,7 +21,7 @@ product_data = [
     {
         "id": "product_sathu_maavu",
         "name": "Sathu Maavu",
-        "image_url": "https://example.com/images/sathu_maavu.jpg",
+        "image_url": "https://backend.babybowl.life/static/Image/food4.jpg",
         "price": 150.00,
         "currency": "INR",
         "rating": 4.7,
@@ -31,7 +31,7 @@ product_data = [
         "brand": "Health Foods",
         "shipping_info": {
             "weight": "500 g",
-            "shipping_cost": 40
+            "shipping_cost": 50
         },
         "tags": ["multigrain", "organic", "health mix"]
     }
