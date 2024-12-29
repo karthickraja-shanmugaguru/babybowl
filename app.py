@@ -26,6 +26,18 @@ category_data = [
         "name": "Oil",
         "image_url": "https://backend.babybowl.life/static/Image/oil1.png",
         "is_active": True
+    },
+    {
+        "id": "1",
+        "name": "Dress",
+        "image_url": "https://backend.babybowl.life/static/Image/dress1.png",
+        "is_active": True
+    },
+    {
+        "id": "1",
+        "name": "Soap",
+        "image_url": "https://backend.babybowl.life/static/Image/soap1.png",
+        "is_active": True
     }
 ]
 
@@ -68,6 +80,40 @@ product_data = [
         "id": "Hair oil",
         "name": "Hair oil",
         "image_url": "https://backend.babybowl.life/static/Image/oil1.png",
+        "price": 150.00,
+        "currency": "INR",
+        "rating": 4.7,
+        "is_available": True,
+        "categories": ["Toys"],
+        "description": "Nutritious multigrain health mix made with natural ingredients",
+        "brand": "Health Foods",
+        "shipping_info": {
+            "weight": "500 g",
+            "shipping_cost": 50
+        },
+        "tags": ["toys"]
+    },
+    {
+        "id": "Dress",
+        "name": "Dress",
+        "image_url": "https://backend.babybowl.life/static/Image/dress1.png",
+        "price": 150.00,
+        "currency": "INR",
+        "rating": 4.7,
+        "is_available": True,
+        "categories": ["Toys"],
+        "description": "Nutritious multigrain health mix made with natural ingredients",
+        "brand": "Health Foods",
+        "shipping_info": {
+            "weight": "500 g",
+            "shipping_cost": 50
+        },
+        "tags": ["toys"]
+    },
+    {
+        "id": "Soap",
+        "name": "Soap",
+        "image_url": "https://backend.babybowl.life/static/Image/soap1.png",
         "price": 150.00,
         "currency": "INR",
         "rating": 4.7,
