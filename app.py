@@ -50,7 +50,7 @@ product_data = [
     {
         "id": "Toys",
         "name": "Toys",
-        "image_url": "https://backend.babybowl.life/static/Image/Toys1.jpg",
+        "image_url": "https://backend.babybowl.life/static/Image/Toys1.png",
         "price": 150.00,
         "currency": "INR",
         "rating": 4.7,
@@ -67,7 +67,7 @@ product_data = [
     {
         "id": "Hair oil",
         "name": "Hair oil",
-        "image_url": "https://backend.babybowl.life/static/Image/oil11.png",
+        "image_url": "https://backend.babybowl.life/static/Image/oil1.png",
         "price": 150.00,
         "currency": "INR",
         "rating": 4.7,
