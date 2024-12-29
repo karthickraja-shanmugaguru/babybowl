@@ -65,23 +65,6 @@ product_data = [
         "tags": ["toys"]
     },
     {
-        "id": "Toys",
-        "name": "Toys",
-        "image_url": "https://backend.babybowl.life/static/Image/Toys1.png",
-        "price": 150.00,
-        "currency": "INR",
-        "rating": 4.7,
-        "is_available": True,
-        "categories": ["Toys"],
-        "description": "Nutritious multigrain health mix made with natural ingredients",
-        "brand": "Health Foods",
-        "shipping_info": {
-            "weight": "500 g",
-            "shipping_cost": 50
-        },
-        "tags": ["toys"]
-    },
-    {
         "id": "Hair oil",
         "name": "Hair oil",
         "image_url": "https://backend.babybowl.life/static/Image/oil11.png",
