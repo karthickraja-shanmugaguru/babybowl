@@ -1,5 +1,9 @@
-from flask import Flask, jsonify, url_for
-from flask_cors import CORS, cross_origin 
+# from flask import Flask, jsonify, url_for
+# from flask_cors import CORS, cross_origin 
+
+from flask import Flask, jsonify, url_for, request
+from flask_cors import CORS, cross_origin
+
 
 app = Flask(__name__)
 
@@ -200,10 +204,28 @@ def get_banners():
 def get_categories():
     return jsonify({"data": category_data})
 
+@app.route('/dashboard/products/all', methods=['GET'])
+@cross_origin('*')
+def get_all_products():
+    return jsonify({"data": product_data})
+
 @app.route('/dashboard/products', methods=['GET'])
 @cross_origin('*')
 def get_products():
-    return jsonify({"data": product_data})
+    category = request.args.get('category', '').strip()
+    
+    # If category is empty or not found, return all products
+    if not category:
+        return jsonify({"data": product_data})
+    
+    # Filter products by category
+    filtered_products = [product for product in product_data if category.lower() in map(str.lower, product['categories'])]
+    
+    # If no products match the category, return all products
+    if not filtered_products:
+        return jsonify({"data": product_data})
+    
+    return jsonify({"data": filtered_products})
 
 @app.route('/api', methods=['GET'])
 @cross_origin('*')
