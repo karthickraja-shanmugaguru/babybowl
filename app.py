@@ -209,7 +209,7 @@ def get_categories():
 def get_all_products():
     return jsonify({"data": product_data})
 
-@app.route('/dashboard/products', methods=['GET'])
+@app.route('/dashboard/products/', methods=['GET'])
 @cross_origin('*')
 def get_products():
     category = request.args.get('category', '').strip()
