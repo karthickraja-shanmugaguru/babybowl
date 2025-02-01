@@ -46,11 +46,11 @@ banner_data = [
 # ]
 
 category_data = [
-    {"id": "1", "name": "Baby Foods", "image_url": "https://backend.babybowl.life/static/Image/food4.jpg", "is_active": True},
-    {"id": "2", "name": "Baby Toys", "image_url": "https://backend.babybowl.life/static/Image/food4.jpg", "is_active": True},
-    {"id": "3", "name": "Baby Oils", "image_url": "https://backend.babybowl.life/static/Image/food4.jpg", "is_active": True},
-    {"id": "4", "name": "Baby Clothes", "image_url": "https://backend.babybowl.life/static/Image/food4.jpg", "is_active": True},
-    {"id": "5", "name": "Baby Soaps", "image_url": "https://backend.babybowl.life/static/Image/food4.jpg", "is_active": True},
+    {"id": "1", "name": "Foods", "image_url": "https://backend.babybowl.life/static/Image/food4.jpg", "is_active": True},
+    {"id": "2", "name": "Toys", "image_url": "https://backend.babybowl.life/static/Image/food4.jpg", "is_active": True},
+    {"id": "3", "name": "Oils", "image_url": "https://backend.babybowl.life/static/Image/food4.jpg", "is_active": True},
+    {"id": "4", "name": "Dress", "image_url": "https://backend.babybowl.life/static/Image/food4.jpg", "is_active": True},
+    {"id": "5", "name": "Soaps", "image_url": "https://backend.babybowl.life/static/Image/food4.jpg", "is_active": True},
     {"id": "6", "name": "Diapers", "image_url": "https://backend.babybowl.life/static/Image/food4.jpg", "is_active": True},
     {"id": "7", "name": "Bath Essentials", "image_url": "https://backend.babybowl.life/static/Image/food4.jpg", "is_active": True},
     {"id": "8", "name": "Storybooks", "image_url": "https://backend.babybowl.life/static/Image/food4.jpg", "is_active": True},
@@ -160,25 +160,25 @@ category_data = [
 
 
 product_data = [
-    # Baby Foods
-    {"id": "1", "name": "Sathu Maavu", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 150.00, "currency": "INR", "rating": 4.7, "is_available": True, "categories": ["Baby Foods"], "description": "Nutritious multigrain health mix.", "brand": "Health Foods", "ProductInfo": {"measurementsName": "Weight", "measuremtnsList": ["500g"]}, "tags": ["multigrain", "health mix"]},
-    {"id": "2", "name": "Baby Cereal", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 200.00, "currency": "INR", "rating": 4.6, "is_available": True, "categories": ["Baby Foods"], "description": "Healthy cereal for babies.", "brand": "Baby Care", "ProductInfo": {"measurementsName": "Weight", "measuremtnsList": ["250g"]}, "tags": ["cereal", "baby food"]},
+    # foods
+    {"id": "1", "name": "Sathu Maavu", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 150.00, "currency": "INR", "rating": 4.7, "is_available": True, "categories": ["Foods"], "description": "Nutritious multigrain health mix.", "brand": "Health Foods", "ProductInfo": {"measurementsName": "Weight", "measuremtnsList": ["500g"]}, "tags": ["multigrain", "health mix"]},
+    {"id": "2", "name": "Baby Cereal", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 200.00, "currency": "INR", "rating": 4.6, "is_available": True, "categories": ["Foods"], "description": "Healthy cereal for babies.", "brand": "Baby Care", "ProductInfo": {"measurementsName": "Weight", "measuremtnsList": ["250g"]}, "tags": ["cereal", "baby food"]},
 
-    # Baby Toys
-    {"id": "3", "name": "Soft Plush Toy", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 250.00, "currency": "INR", "rating": 4.8, "is_available": True, "categories": ["Baby Toys"], "description": "Soft plush toy made with safe materials.", "brand": "Toy World", "ProductInfo": {"measurementsName": "Dimensions", "measuremtnsList": ["30 cm"]}, "tags": ["plush", "toys"]},
-    {"id": "4", "name": "Stacking Rings", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 300.00, "currency": "INR", "rating": 4.5, "is_available": True, "categories": ["Baby Toys"], "description": "Colorful stacking rings for coordination.", "brand": "Fun Toys", "ProductInfo": {"measurementsName": "", "measuremtnsList": []}, "tags": ["stacking", "educational"]},
+    # toys
+    {"id": "3", "name": "Soft Plush Toy", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 250.00, "currency": "INR", "rating": 4.8, "is_available": True, "categories": ["Toys"], "description": "Soft plush toy made with safe materials.", "brand": "Toy World", "ProductInfo": {"measurementsName": "Dimensions", "measuremtnsList": ["30 cm"]}, "tags": ["plush", "toys"]},
+    {"id": "4", "name": "Stacking Rings", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 300.00, "currency": "INR", "rating": 4.5, "is_available": True, "categories": ["Toys"], "description": "Colorful stacking rings for coordination.", "brand": "Fun Toys", "ProductInfo": {"measurementsName": "", "measuremtnsList": []}, "tags": ["stacking", "educational"]},
 
-    # Baby Oils
-    {"id": "5", "name": "Hair Oil", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 350.00, "currency": "INR", "rating": 4.9, "is_available": True, "categories": ["Baby Oils"], "description": "Nourishing baby hair oil.", "brand": "Baby Naturals", "ProductInfo": {"measurementsName": "Volume", "measuremtnsList": ["500 ml"]}, "tags": ["hair oil", "herbal"]},
-    {"id": "6", "name": "Massage Oil", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 400.00, "currency": "INR", "rating": 4.7, "is_available": True, "categories": ["Baby Oils"], "description": "Gentle massage oil for babies.", "brand": "Care Oil", "ProductInfo": {"measurementsName": "Volume", "measuremtnsList": ["250 ml"]}, "tags": ["massage oil", "nourishment"]},
+    # Oils
+    {"id": "5", "name": "Hair Oil", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 350.00, "currency": "INR", "rating": 4.9, "is_available": True, "categories": ["Oils"], "description": "Nourishing baby hair oil.", "brand": "Baby Naturals", "ProductInfo": {"measurementsName": "Volume", "measuremtnsList": ["500 ml"]}, "tags": ["hair oil", "herbal"]},
+    {"id": "6", "name": "Massage Oil", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 400.00, "currency": "INR", "rating": 4.7, "is_available": True, "categories": ["Oils"], "description": "Gentle massage oil for babies.", "brand": "Care Oil", "ProductInfo": {"measurementsName": "Volume", "measuremtnsList": ["250 ml"]}, "tags": ["massage oil", "nourishment"]},
 
     # Baby Clothes
-    {"id": "7", "name": "Baby Onesie", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 450.00, "currency": "INR", "rating": 4.6, "is_available": True, "categories": ["Baby Clothes"], "description": "Comfortable cotton onesie.", "brand": "Baby Wear", "ProductInfo": {"measurementsName": "Size", "measuremtnsList": ["S", "M", "L"]}, "tags": ["onesie", "cotton"]},
-    {"id": "8", "name": "Baby Frock", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 500.00, "currency": "INR", "rating": 4.7, "is_available": True, "categories": ["Baby Clothes"], "description": "Stylish frock for baby girls.", "brand": "Fashion Baby", "ProductInfo": {"measurementsName": "Size", "measuremtnsList": ["S", "M", "L"]}, "tags": ["frock", "stylish"]},
+    {"id": "7", "name": "Baby Onesie", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 450.00, "currency": "INR", "rating": 4.6, "is_available": True, "categories": ["Dress"], "description": "Comfortable cotton onesie.", "brand": "Baby Wear", "ProductInfo": {"measurementsName": "Size", "measuremtnsList": ["S", "M", "L"]}, "tags": ["onesie", "cotton"]},
+    {"id": "8", "name": "Baby Frock", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 500.00, "currency": "INR", "rating": 4.7, "is_available": True, "categories": ["Dress"], "description": "Stylish frock for baby girls.", "brand": "Fashion Baby", "ProductInfo": {"measurementsName": "Size", "measuremtnsList": ["S", "M", "L"]}, "tags": ["frock", "stylish"]},
 
-    # Baby Soaps
-    {"id": "9", "name": "Mild Baby Soap", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 100.00, "currency": "INR", "rating": 4.9, "is_available": True, "categories": ["Baby Soaps"], "description": "Mild soap to keep baby skin soft.", "brand": "Gentle Care", "ProductInfo": {"measurementsName": "Weight", "measuremtnsList": ["200g"]}, "tags": ["soap", "gentle"]},
-    {"id": "10", "name": "Organic Baby Soap", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 120.00, "currency": "INR", "rating": 4.8, "is_available": True, "categories": ["Baby Soaps"], "description": "Organic soap with natural ingredients.", "brand": "Nature's Touch", "ProductInfo": {"measurementsName": "Weight", "measuremtnsList": ["100g"]}, "tags": ["organic soap", "natural"]},
+    # Soaps
+    {"id": "9", "name": "Mild Baby Soap", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 100.00, "currency": "INR", "rating": 4.9, "is_available": True, "categories": ["Soaps"], "description": "Mild soap to keep baby skin soft.", "brand": "Gentle Care", "ProductInfo": {"measurementsName": "Weight", "measuremtnsList": ["200g"]}, "tags": ["soap", "gentle"]},
+    {"id": "10", "name": "Organic Baby Soap", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 120.00, "currency": "INR", "rating": 4.8, "is_available": True, "categories": ["Soaps"], "description": "Organic soap with natural ingredients.", "brand": "Nature's Touch", "ProductInfo": {"measurementsName": "Weight", "measuremtnsList": ["100g"]}, "tags": ["organic soap", "natural"]},
 
     # Diapers
     {"id": "11", "name": "Disposable Diapers", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 500.00, "currency": "INR", "rating": 4.5, "is_available": True, "categories": ["Diapers"], "description": "Super absorbent disposable diapers.", "brand": "DiaperCare", "ProductInfo": {"measurementsName": "Pack", "measuremtnsList": ["S", "M"]}, "tags": ["disposable", "diapers"]},
