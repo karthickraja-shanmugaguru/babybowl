@@ -18,7 +18,7 @@ category_data = [
 
 product_data = [
     # foods
-    {"id": "1", "name": "Sathu Maavu", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": "800.00/Kg", "currency": "INR", "rating": 4.7, "is_available": True, "categories": ["Foods"], "description": "Boost your health with our premium Sathu Maavu, a nutritious multigrain health mix packed with the goodness of whole grains, nuts, and pulses. Carefully crafted to provide essential vitamins, minerals, and fiber, this wholesome mix supports digestion, energy, and overall well-being. Ideal for all ages, it’s a perfect choice for a hearty breakfast or a nourishing meal. No preservatives, no artificial flavors—just pure, natural goodness in every scoop!", "brand": "BabyBowl", "ProductInfo": {"measurementsName": "Weight", "measuremtnsList": ["500g","200g","1Kg"]}, "tags": ["multigrain", "health mix"]}
+    {"id": "1", "name": "Sathu Maavu", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 200.00, "currency": "INR", "rating": 4.7, "is_available": True, "categories": ["Foods"], "description": "Boost your health with our premium Sathu Maavu, a nutritious multigrain health mix packed with the goodness of whole grains, nuts, and pulses. Carefully crafted to provide essential vitamins, minerals, and fiber, this wholesome mix supports digestion, energy, and overall well-being. Ideal for all ages, it’s a perfect choice for a hearty breakfast or a nourishing meal. No preservatives, no artificial flavors—just pure, natural goodness in every scoop!", "brand": "BabyBowl", "ProductInfo": {"measurementsName": "Weight", "measuremtnsList": ["500g","200g","1Kg"]}, "tags": ["multigrain", "health mix"]}
 ]
 
 
