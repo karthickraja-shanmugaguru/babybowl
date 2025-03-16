@@ -13,12 +13,15 @@ banner_data = [
 ]
 
 category_data = [
-    {"id": "1", "name": "Foods", "image_url": "https://backend.babybowl.life/static/Image/food4.jpg", "is_active": True},
+    {"id": "1", "name": "Yum Bites", "image_url": "https://backend.babybowl.life/static/Image/food4.jpg", "is_active": True},
+    {"id": "1", "name": "Soft Wash", "image_url": "https://backend.babybowl.life/static/Image/bathcategory.png", "is_active": True}
    ]
 
 product_data = [
     # foods
-    {"id": "1", "name": "Sathu Maavu", "image_url": "https://backend.babybowl.life/static/Image/Toys1.png", "price": 200.00, "currency": "INR", "rating": 4.7, "is_available": True, "categories": ["Foods"], "description": "Boost your health with our premium Sathu Maavu, a nutritious multigrain health mix packed with the goodness of whole grains, nuts, and pulses. Carefully crafted to provide essential vitamins, minerals, and fiber, this wholesome mix supports digestion, energy, and overall well-being. Ideal for all ages, it’s a perfect choice for a hearty breakfast or a nourishing meal. No preservatives, no artificial flavors—just pure, natural goodness in every scoop!", "brand": "BabyBowl", "ProductInfo": {"measurementsName": "Weight", "measuremtnsList": ["500g","200g","1Kg"]}, "tags": ["multigrain", "health mix"]}
+    {"id": "1", "name": "Sathu Maavu", "image_url": "https://backend.babybowl.life/static/Image/sathumaavu.png", "price": 200.00, "currency": "INR", "rating": 4.7, "is_available": True, "categories": ["Yum Bites"], "description": "Yum Bites Sathu Maavu is a nutritious blend of cashew nuts, almonds, pistachios, walnuts, ragi, karuppu kavuni, mappillai samba, wheat, barley rice, sorghum, pearl millet, green gram, sago, groundnuts, roasted gram, and palm candy — perfect for a healthy start!", "brand": "BabyBowl", "ProductInfo": {"measurementsName": "Weight", "measuremtnsList": ["500g","200g", "1kg"]}, "tags": ["multigrain", "health mix"]},
+    {"id": "2", "name": "Thiraviya Kuliyal Podi", "image_url": "https://backend.babybowl.life/static/Image/thiraviyakuliyalpodi.png", "price": 200.00, "currency": "INR", "rating": 4.9, "is_available": True, "categories": ["Soft Wash"], "description": "Soft Wash - Thiraviya Podi is a gentle herbal mix made with thiraviya podi, vettiver, pulangkilangu, rose petals, hibiscus petals, aavarampoo petals, thiruneetrupattru fibers, orange peel, green gram, chana dal, and almond dal — perfect for soft and healthy skin!", "brand": "BabyBowl", "ProductInfo": {"measurementsName": "Weight", "measuremtnsList": ["500g","200g", "1kg"]}, "tags": ["SoftWash"]},
+
 ]
 
 
